@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BigBasket</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <header class="bg-orange-500 text-white p-4 flex flex-col sm:flex-row justify-between items-center shadow-md">
+    <h1 class="text-3xl font-bold mb-2 sm:mb-0">BigBasket</h1>
+    <input id="search" type="text" placeholder="Search for products..." 
+           class="p-2 rounded w-full sm:w-1/3 text-black focus:outline-none focus:ring-2 focus:ring-orange-300">
+  </header>
+
+  <nav id="categories" class="flex gap-3 p-4 overflow-x-auto bg-white shadow-md mb-6">
+  </nav>
+
+  <main id="products" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+  </main>
+
+</body>
+<script src="script.js"></script>
+</html>
